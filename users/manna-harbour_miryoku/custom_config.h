@@ -5,3 +5,4 @@
 
 #pragma once
 
+#define MIRYOKU_CLIPBOARD_WIN
