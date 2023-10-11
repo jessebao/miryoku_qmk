@@ -9,7 +9,10 @@
 
 // default but used in macros
 #undef TAPPING_TERM
-#define TAPPING_TERM 150
+#define TAPPING_TERM 175
+
+#define POINTING_DEVICE_AUTO_MOUSE_ENABLE
+#define AUTO_MOUSE_DEFAULT_LAYER 5
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
