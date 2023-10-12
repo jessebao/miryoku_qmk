@@ -10,7 +10,7 @@
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH \
 KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              KC_QUOT,           \
 LGUI_T(KC_A),      LALT_T(KC_R),      LCTL_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              LSFT_T(KC_N),      LCTL_T(KC_E),      LALT_T(KC_I),      LGUI_T(KC_O),      \
-LT(U_BUTTON,KC_Z), ALGR_T(KC_X),      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_MOUSE,KC_SLSH),\
+LT(U_MOUSE,KC_Z),  ALGR_T(KC_X),      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_MOUSE,KC_SLSH),\
 U_NP,              U_NP,              LT(U_FUN,KC_ESC),  LT(U_NAV,KC_BSPC), LT(U_MEDIA,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_SPC),  KC_DEL,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
@@ -42,8 +42,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_MOUSE \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             KC_PSCR,           TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
-KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_SCRL,           U_NA,              U_NA,              U_NA,              U_NA,              \
-KC_WH_L,           KC_WH_U,           DRG_TOG,           KC_WH_R,           U_NA,              KC_PAUS,           TD(U_TD_U_MOUSE),  TD(U_TD_U_SYM),    KC_ALGR,           U_NA,              \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           DRG_TOG,           KC_SCRL,           U_NA,              U_NA,              U_NA,              U_NA,              \
+U_NA,              KC_WH_U,           DRG_TOG,           KC_WH_R,           U_NA,              KC_PAUS,           TD(U_TD_U_MOUSE),  TD(U_TD_U_SYM),    KC_ALGR,           U_NA,              \
 U_NP,              U_NP,              KC_BTN3,           KC_BTN1,           KC_BTN2,           KC_ENT,            KC_SPC,            KC_DEL,            U_NP,              U_NP
 
 //#define MIRYOKU_ALTERNATIVES_MOUSE \
