@@ -43,7 +43,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_ALTERNATIVES_MOUSE \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             KC_PSCR,           TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
 KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           DRG_TOG,           KC_SCRL,           KC_BTN1,           KC_BTN3,           KC_BTN2,           U_NA,              \
-U_NA,              KC_WH_U,           DRG_TOG,           SNP_TOG,           U_NA,              KC_PAUS,           TD(U_TD_U_MOUSE),  TD(U_TD_U_SYM),    KC_ALGR,           U_NA,              \
+U_NA,              KC_WH_U,           DRG_TOG,           SNP_TOG,           U_NA,              DRG_TOG,           KC_BTN1,           KC_BTN3,           KC_BTN2,           U_NA,              \
 U_NP,              U_NP,              KC_BTN3,           KC_BTN1,           KC_BTN2,           SNP_TOG,           DRG_TOG,           U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MEDIA \
