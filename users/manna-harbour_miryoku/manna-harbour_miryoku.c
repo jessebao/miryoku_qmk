@@ -37,8 +37,13 @@ tap_dance_action_t tap_dance_actions[] = {
 #define MIRYOKU_X(LAYER, STRING) [U_TD_U_##LAYER] = ACTION_TAP_DANCE_FN(u_td_fn_U_##LAYER),
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
-};
+};hh
 
+//auto mouse
+// void pointing_device_init_user(void) {
+//     set_auto_mouse_layer(U_MOUSE); // only required if AUTO_MOUSE_DEFAULT_LAYER is not set to index of <mouse_layer>
+//     set_auto_mouse_enable(true);         // always required before the auto mouse feature will work
+// }
 
 // keymap
 
@@ -57,11 +62,6 @@ const key_override_t **key_overrides = (const key_override_t *[]){
     &capsword_key_override,
     NULL
 };
-
-void pointing_device_init_user(void) {
-    set_auto_mouse_layer(U_MOUSE); // only required if AUTO_MOUSE_DEFAULT_LAYER is not set to index of <mouse_layer>
-    set_auto_mouse_enable(true);         // always required before the auto mouse feature will work
-}
 
 // thumb combos
 
