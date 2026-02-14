@@ -25,3 +25,6 @@
 	path = lib/lvgl
 	url = https://github.com/qmk/lvgl.git
 	branch = release/v8.2
+[submodule "users/manna-harbour_miryoku/modules/drashna"]
+	path = users/manna-harbour_miryoku/modules/drashna
+	url = https://github.com/drashna/qmk_modules.git
