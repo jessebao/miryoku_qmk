@@ -6,7 +6,6 @@
 #include QMK_KEYBOARD_H
 
 #include "manna-harbour_miryoku.h"
-#include "modules/drashna/pointing_device_accel/pointing_device_accel.h"
 
 
 // Additional Features double tap guard
@@ -94,9 +93,3 @@ combo_t key_combos[COMBO_COUNT] = {
   COMBO(thumbcombos_fun, KC_APP)
 };
 #endif
-
-
-report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
-    mouse_report = pointing_device_task_pointing_device_accel(mouse_report);
-    return mouse_report;
-}
